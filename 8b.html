@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Employees detail form</h1>
+    <form action="">
+        <label for="Username">Name:</label>
+        <input type="text" name="fname" id="Username"> <br> <br>
+
+        <label for="usermailid">Email:</label>
+        <input type="email" name="email" id="usermailid" required> <br> <br>
+
+        <label for="phnum">Phone no:</label>
+        <input type="number" name="phonenumber" id="phnum"> <br> <br>
+
+        <label for="">Gender: </label>
+        <input type="radio"  id="male" name="Gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="Gender" value="Female"> 
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="Gender" value="Other">
+        <label for="other">Other</label>  <br> <br>
+
+
+        <label for="jobname">Job title: </label>
+        <input type="text" name="job" id="jobname"> <br> <br>
+
+        
+        <lable for="depname">Department: </lable>
+        <select name="" id="depname">
+            <option value="">Select your department</option>
+            <option value="Engineer" >Engineer</option>
+            <option value="Medical">Medical</option>
+            <option value="Finance">Finance</option>
+            <option value="Research">Research</option>
+            <option value="Business">Business</option>
+            <option value="Self Employeed">Self Employeed</option>
+        </select>
+        <br> <br>
+        
+        <button>Submit</button>
+        <br><br><br>
+
+        <!-- in backend -->
+        fname=jyotsna&email=xyz%40gmail.com&phonenumber=2134567890&Gender=Female&job=sde
+    </form>
+</body>
+</html>

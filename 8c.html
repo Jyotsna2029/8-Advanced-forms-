@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset>
+        <legend>IIT JEE Registration form</legend>
+    <form action="">
+      <fieldset>
+        <legend>User Info</legend>
+        <label for="fname">Full Name</label>
+        <input type="text" name="fullname" id="fname" />
+      <br /><br />
+
+      <label for="mailid">Email: </label>
+      <input type="email" name="emailid" id="mailid" />
+      <br />
+      <br />
+
+      <label for="phnum">Phone no:</label>
+      <input type="tel" name="contactno" id="phnum" />
+      <br /><br />
+
+      <label for="passwd">Password</label>
+      <input type="password" name="password" id="passwd" />
+      <br><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>User other Info</legend>
+      <label for="Gender">Gender: </label>
+      <input type="radio" name="sex" id="male" name="Gender">
+      <label for="male">Male</label>
+      <input type="radio" name="sex" id="female" name="Gender">
+      <label for="female">Female</label>
+      <input type="radio" name="sex" id="other" name="Gender">
+      <label for="other">Other</label>
+      <br><br>
+
+      <label for="Dateofbirth">DOB:</label>
+      <input type="date" name="DOB" id="Dateofbirth" min="2001-01-01" max="2005-12-31">
+      <br> <br>
+
+      <label for="schoolname">School Name: </label>
+      <input type="text" name="school name" id="school">
+      <br><br>
+
+      <label for="boardname"> Board: </label>
+      <select name="Board" id="boardname">
+        <option value="">Select Your Board</option>
+        <option value="RBSE">RBSE</option>
+        <option value="CBSE">CBSE</option>
+        <option value="ICSE">ICSE</option>
+        <option value="UKB">UKB</option>
+      </select>
+      <br><br>
+
+
+      <label for="yop">Year of Passing:</label>
+      <input type="number" name="Year of passing" id="yop" min="2023" max="2025">
+      <br><br>
+
+      <label for="center">Exam Center: </label>
+      <select name="Exam center" id="center">
+        <option value="">Enter your choice</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Rajasthan">Rajasthan</option>
+        <option value="Haryana">Haryana</option>
+        <option value="Jaipur">Jaipur</option>
+      </select>
+      <br><br>
+    </fieldset>
+      <button>Register</button>
+    </fieldset>
+    </form>
+  </body>
+</html>
